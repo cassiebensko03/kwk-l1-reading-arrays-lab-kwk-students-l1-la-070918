@@ -13,14 +13,16 @@ fourth_student_by_index
 
 
 def last_student_by_index
-#   # Write a solution that returns the first student in the array student_names
-# end
+  puts STUDENT_NAMES.first
+end 
+last_student_by_index
 
-# def first_student_by_method
-#   # Write a solution that returns the first student using the built in .first method
-# end
+def first_student_by_method
+puts STUDENT_NAMES.first
+end 
+first_student_by_method
 
-# def last_student_by_method
+def last_student_by_method
 #   # Write a solution that returns the first student using the built in .last method
 # end
 
